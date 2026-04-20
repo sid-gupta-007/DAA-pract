@@ -97,7 +97,6 @@ int main()
 
     cout << "\n1. Preorder\n2. Inorder\n3. Postorder\n4. Level Order\nEnter choice: ";
     cin >> choice;
-
     switch (choice)
     {
     case 1:
@@ -119,5 +118,6 @@ int main()
     default:
         cout << "Invalid Choice";
     }
+
     return 0;
 }
