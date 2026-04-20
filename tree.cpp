@@ -64,8 +64,7 @@ void levelOrder(Node *root)
     if (!root)
         return;
 
-    Node *q[100]; // Changed 'a' to 'q' to match the rest of your logic
-    int f = 0, r = 0;
+    Node *q[100]; 
     q[r++] = root;
 
     while (f < r)
